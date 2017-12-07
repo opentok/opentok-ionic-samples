@@ -27,21 +27,6 @@
 4. Add the [Cordova-OpenTok-Plugin](https://github.com/msach22/cordova-plugin-opentok): 
 `$ ionic cordova plugin add https://github.com/msach22/cordova-plugin-opentok/`
 
-## Configuring the application
-
-Before running the application, you need to configure it to use the API key for your OpenTok project, along with an OpenTok session ID and token. For test purposes, you can get a test session ID and token for your project at your TokBox account page.
-
-Open the `src/pages/home/home.ts` file in your project and set the `apiKey`, `sessionId`, and `token` values to the API key, session ID, and token:
-```
-    // Set Credentials
-    this.apiKey = '';    // Add your API key.
-    this.sessionId = ''; // Add the session ID.
-    this.token = '';     // Add the token.
-```
-An OpenTok session connects different clients letting them share audio-video streams and send messages. Clients in the same session can include iOS, Android, and web browsers.
-
-For testing, you can use a session ID and token generated at your TokBox account page. However, the final application should obtain these values using the OpenTok server SDKs. For more information, see the OpenTok developer guides on session creation and token creation.
-
 ## Running the application
 
 #### For Android
