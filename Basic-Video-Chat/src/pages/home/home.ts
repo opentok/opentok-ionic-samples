@@ -27,6 +27,9 @@ export class HomePage {
     this.session.on({
       streamCreated: (event) => {
         this.session.subscribe(event.stream, 'subscriber');
+      },
+      streamDestroyed: (event) => {
+        console.log(`Stream ${event.stream.name} ended because ${event.reason}`);        
       }
     });
 
