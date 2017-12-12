@@ -24,8 +24,8 @@
 
 3. Run: `$ npm install`
 
-4. Add the [Cordova-OpenTok-Plugin](https://github.com/msach22/cordova-plugin-opentok): 
-`$ ionic cordova plugin add https://github.com/msach22/cordova-plugin-opentok/`
+4. Add the [Cordova-OpenTok-Plugin](https://github.com/opentok/cordova-plugin-opentok): 
+`$ ionic cordova plugin add https://github.com/opentok/cordova-plugin-opentok/`
 
 ## Running the application
 
