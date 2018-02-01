@@ -54,7 +54,7 @@ Add the following to the project's `info.plist` file:
  ```
 1. In the root directory of the sample project, run `ionic serve`.
     * This is needed to copy over the files to the `www` folder 
-2. Next, run `ionic cordova prepare android`.
+2. Next, run `ionic cordova prepare ios`.
 3. Open Xcode.
 4. Click `Open another project...`
 5. Navigate to the `platforms/ios` subdirectory of this project and select `MyApp.xcodeproj`.
