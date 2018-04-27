@@ -27,9 +27,11 @@ export class HomePage {
     this.session.on({
       streamCreated: (event) => {
         this.session.subscribe(event.stream, 'subscriber');
+        OT.updateViews();
       },
       streamDestroyed: (event) => {
-        console.log(`Stream ${event.stream.name} ended because ${event.reason}`);        
+        console.log(`Stream ${event.stream.name} ended because ${event.reason}`);
+        OT.updateViews();        
       }
     });
 
