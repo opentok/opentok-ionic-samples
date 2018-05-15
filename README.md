@@ -1,6 +1,5 @@
-![OpenTok Labs](https://d26dzxoao6i3hh.cloudfront.net/items/0U1R0a0e2g1E361H0x3c/Image%202017-11-22%20at%2012.16.38%20PM.png?v=2507a2df)
 # OpenTok Ionic Samples
-
+![OpenTok Labs](https://d26dzxoao6i3hh.cloudfront.net/items/0U1R0a0e2g1E361H0x3c/Image%202017-11-22%20at%2012.16.38%20PM.png?v=2507a2df)
 ### In this repo, you'll find the following sample applications:
 
 * ##### Basic Video Chat
@@ -25,7 +24,7 @@
 3. Run: `$ npm install`
 
 4. Add the [Cordova-OpenTok-Plugin](https://github.com/opentok/cordova-plugin-opentok): 
-`$ ionic cordova plugin add https://github.com/opentok/cordova-plugin-opentok/`
+`$ ionic cordova plugin add cordova-plugin-opentok`
 
 ## Running the application
 
