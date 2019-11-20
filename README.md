@@ -23,8 +23,19 @@
 
 3. Run: `$ npm install`
 
-4. Add the [Cordova-OpenTok-Plugin](https://github.com/opentok/cordova-plugin-opentok): 
-`$ ionic cordova plugin add cordova-plugin-opentok`
+4. Add the  android plateform.
+
+5 Add Ionic cordova plugin cordova-plugin-android-permission,cordova-plugin-camera,cordova-plugin-media-capture (add in config.xml)
+
+6 Add below User permission in plateform/android/app/src/main/AndroidManifest.xml
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+7.Install native plugin '@opentok/client','@ionic-native/camera','@ionic-native/android-permissions'
+
+8.Request the permission for accessiog  CAMERA, AUDIO  when plateform is ready.
+
 
 ## Running the application
 
