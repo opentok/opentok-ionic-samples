@@ -35,11 +35,11 @@
   ```
 
 7. Install native plugin '@opentok/client','@ionic-native/camera','@ionic-native/android-permissions'
-   ```
+ ```
    npm install @opentok/client
    npm install @ionic-native/camera
    npm install @ionic-native/android-permissions
-   ```
+  ```
 8. Request the permission for accessiog  CAMERA, AUDIO  when plateform is ready.
 
 
