@@ -31,6 +31,7 @@
     "cordova-plugin-android-permissions": "^1.0.2",
     "cordova-plugin-network-information": "^2.0.2",
     "cordova-plugin-networkinterface": "^2.0.0",
+    "cordova-plugin-opentok": "^3.4.3",
     "cordova-res": "^0.8.1",
     "core-js": "^2.5.4",
     "fabric": "^3.5.1",
