@@ -62,9 +62,20 @@ Add the following to the project's `info.plist` file:
 
 ##### Note: If you're using the simulator, you will see a simulation for your publisher since the simulator doesn't have a camera.
 
-## Contributing
+## Development and Contributing
 
-If you make changes to the project that you would like to contribute back
-then please follow the [contributing guidelines](CONTRIBUTING.md).
-All contributions are greatly appreciated!
+Interested in contributing? We :heart: pull requests! See the 
+[Contribution](CONTRIBUTING.md) guidelines.
 
+## Getting Help
+
+We love to hear from you so if you have questions, comments or find a bug in the project, let us know! You can either:
+
+- Open an issue on this repository
+- See <https://support.tokbox.com/> for support options
+- Tweet at us! We're [@VonageDev](https://twitter.com/VonageDev) on Twitter
+- Or [join the Vonage Developer Community Slack](https://developer.nexmo.com/community/slack)
+
+## Further Reading
+
+- Check out the Developer Documentation at <https://tokbox.com/developer/>
