@@ -1,0 +1,7 @@
+{
+  "name": "publish-canvas",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

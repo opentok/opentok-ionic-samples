@@ -1,0 +1,7 @@
+{
+  "name": "Publish-Video",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
